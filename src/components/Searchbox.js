@@ -44,13 +44,6 @@ const Searchbox = () => {
   return (
     <>
       <div className='box'>
-      <div className='foot'>
-      <span>
-        Searching for Weather 
-        Searching for Weather
-        Searching for Weather
-        </span>
-      </div>
           <h1>Search for Weather</h1>
           <input placeholder='City Name' value={city} onChange={(e)=>{setCity(e.target.value)}}></input>
             &nbsp;&nbsp;
@@ -58,13 +51,6 @@ const Searchbox = () => {
 
       </div>
       < Weathercard info={info} />
-      <div className='foot'>
-      <span>
-        Searching for Weather 
-        Searching for Weather
-        Searching for Weather
-        </span>
-      </div>
     </>
   )
 }
