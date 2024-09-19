@@ -62,8 +62,8 @@ const Weatherbox = ({info}) => {
             <i >{tempperature}</i>
             
         <div className='hi'>
-        <h1>Temperature-{temp}&deg;C</h1>
-            <div className='mausom'>
+        <h1>Temperature:{temp}&deg;C</h1>
+                <div className='mausom'>
                 <h3>{weathermood}</h3>
                 <p>{name},{country}</p>
             </div>
